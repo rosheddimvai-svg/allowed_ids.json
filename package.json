@@ -1,0 +1,25 @@
+{
+  "name": "facebook-account-creator-bot",
+  "version": "1.0.0",
+  "description": "An automated Facebook account creation bot with secure online license verification.",
+  "main": "Facebook bot.js",
+  "scripts": {
+    "start": "node \"Facebook bot.js\"",
+    "install-deps": "npm install"
+  },
+  "keywords": [
+    "facebook",
+    "bot",
+    "puppeteer",
+    "automation",
+    "license"
+  ],
+  "author": "RS Rezaul",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-machine-id": "^1.1.12",
+    "puppeteer-extra": "^6.0.0",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
